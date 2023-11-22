@@ -95,7 +95,7 @@ tail_includes:
     {% endif %}
 
     <!-- tags -->
-    {% if page.tags.size > 0 %}
+    <!-- {% if page.tags.size > 0 %}
       <div class="post-tags">
         <i class="fa fa-tags fa-fw me-1"></i>
         {% for tag in page.tags %}
@@ -107,7 +107,7 @@ tail_includes:
           </a>
         {% endfor %}
       </div>
-    {% endif %}
+    {% endif %} -->
 
     <div
       class="
@@ -115,19 +115,6 @@ tail_includes:
         d-flex justify-content-between align-items-center mt-5 pb-2
       "
     >
-      <div class="license-wrapper">
-        {% if site.data.locales[lang].copyright.license.template %}
-          {% capture _replacement %}
-        <a href="{{ site.data.locales[lang].copyright.license.link }}">
-          {{ site.data.locales[lang].copyright.license.name }}
-        </a>
-        {% endcapture %}
-
-          {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
-        {% endif %}
-      </div>
-
-      {% include post-sharing.html lang=lang %}
     </div>
     <!-- .post-tail-bottom -->
   </div>
