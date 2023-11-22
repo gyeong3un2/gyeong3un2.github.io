@@ -20,3 +20,6 @@ package-lock.json
 
 # Misc
 # assets/js/dist
+
+# 이 파일이 git에 올라가면 빌드/배포가 에러 내는 경우가 많다. 그래서 올라가지 않도록 막는 것이다.
+Gemfile.lock
