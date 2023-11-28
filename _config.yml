@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://devgep.github.io/gyeong3un2.github.io"
+url: "https://gyeong3un2.github.io"
 
 github:
   username: devGEP # change to your github username
@@ -48,8 +48,8 @@ google-site-verification: # fill in to your verification string
 google_analytics:
   id: 'G-XJYX2EFF3X' # fill in your Google Analytics ID
   pv:
-    proxy_endpoint: false  # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path: false
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path: 
 
 # Prefer color scheme setting.
 #
