@@ -40,14 +40,16 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/gyeong3un2
 
-google_site_verification: # fill in to your verification string
+google-site-verification: M1ncUWZIr83ajXJjHX-hRd5XV2Jl66JqRV6zX_a_iiM # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: 'G-XJYX2EFF3X'
-  # fill in your Google Analytics ID
+  id: 'G-XJYX2EFF3X' # fill in your Google Analytics ID
+  pv:
+    proxy_endpoint: false  # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path: false
 
 # Prefer color scheme setting.
 #
