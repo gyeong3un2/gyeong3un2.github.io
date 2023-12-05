@@ -1,6 +1,6 @@
 ---
 title: "[노마드코더] React Native 1. Introduction"
-date: 2023-12-5 23:00:00 +0900
+date: 2023-12-04 23:00:00 +0900
 categories: [React Native]
 tags: [tech, reactnative, javascript, nomadcoder]
 ---
