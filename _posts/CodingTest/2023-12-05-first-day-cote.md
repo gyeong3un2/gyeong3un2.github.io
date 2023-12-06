@@ -1,6 +1,6 @@
 ---
 title: "[Day 1] 코딩테스트 4문제"
-date: 2023-12-06 01:30:00 +0900
+date: 2023-12-05 23:30:00 +0900
 categories: [Coding Test]
 tags: [tech, codingtest, javascript, programmers, leetcode]
 ---
@@ -27,6 +27,11 @@ tags: [tech, codingtest, javascript, programmers, leetcode]
 그래서 LeetCode를 처음으로 사용해봤다. 그랬더니 내가 이제껏 기업 코테를 준비할 때나, 시험을 볼 때 보지 못한 유형들을 만나서 처음에는 기본적인 것을 먼저 풀어보려고 한다.  
 
 <br>
+
+## **오늘의 코딩테스트 - 3 문제 완료**
+![LeetCode3](../../assets/img/posts/CodingTest/2023-12-05/leetCode3.png){: height="300"} 
+
+---
 
 ## **첫번째 문제 - [2703. Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/)**
 
