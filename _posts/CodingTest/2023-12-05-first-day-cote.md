@@ -1,5 +1,5 @@
 ---
-title: "[Day 1] 코딩테스트 4 문제"
+title: "[Day 1] 코딩테스트 4 문제1"
 date: 2023-12-05 23:30:00 +0900
 categories: [Coding Test]
 tags: [tech, codingtest, javascript, programmers, leetcode]
