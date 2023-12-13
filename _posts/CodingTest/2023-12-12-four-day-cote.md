@@ -29,7 +29,7 @@ m과 n은 각각 `num1`과 `nums2`의 요소 수를 나타낸다.
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 function merge(nums1, m, nums2, n) {
-    for (let i = m, j = 0; j < n; i++, j++) {
+    for (let i = m, j = 0; j < n; i+=1, j+=1) {
         nums1[i] = nums2[j];
     }
     nums1.sort((a, b) => a - b);
@@ -118,7 +118,7 @@ function removeDuplicates(nums) {
     
   for (let j = 1; j < nums.length; j++) {
     if (nums[i] !== nums[j]) {
-      i++;
+      i += 1;
       nums[i] = nums[j];
     }
   }

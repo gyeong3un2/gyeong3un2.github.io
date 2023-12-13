@@ -228,7 +228,7 @@ class GameLogic {
     let ball = 0;
     let strike = 0;
 
-    for(let i = 0; i < 3 ; i++) {
+    for(let i = 0; i < 3 ; i+=1) {
       if (user.includes(computer[i])) {
         if (user.indexOf(computer[i]) === i) {
           strike += 1;
