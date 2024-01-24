@@ -2,7 +2,7 @@
 title: "유데미(Udemy) TDD로 배우는 웹 프론트엔드 Section 1 수강 후기"
 date: 2023-12-17 20:21:00 +0900
 categories: [React Native]
-tags: [tech, udemy, onlinelecture, frontend, javascript]
+tags: [tech, Udemy, Online Lecture, Frontend, Javascript]
 ---
 
 ![udemy-image](../../assets/img/posts/tech/udemy-image.png){: height="300"} 

@@ -2,7 +2,7 @@
 title: "[Day 3] 코딩테스트 3 문제"
 date: 2023-12-07 23:59:00 +0900
 categories: [Coding Test]
-tags: [tech, codingtest, javascript, leetcode]
+tags: [tech, codingtest, Javascript, leetcode]
 ---
 
 ## **오늘의 코딩테스트 - 3 문제 완료**

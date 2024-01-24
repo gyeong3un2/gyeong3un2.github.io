@@ -2,7 +2,7 @@
 title: "[우아한TS] Chatper 1. 들어가며"
 date: 2023-12-06 04:00:00 +0900
 categories: [Woowahan TypeScript]
-tags: [tech, frontend, typescript, javascript]
+tags: [tech, Frontend, Typescript, Javascript]
 ---
 
 # Chapter 1. 들어가며

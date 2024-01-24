@@ -1,12 +1,12 @@
 ---
-title: "[노마드코더] React Native 1. Introduction"
+title: "React Native 기본구조"
 date: 2023-12-04 23:00:00 +0900
 categories: [React Native]
-tags: [tech, reactnative, javascript, nomadcoder]
+tags: [tech, nomadcoder, React Native, Javascript]
 ---
 
 ## Introduction
-본 강의를 효과적으로 수강하려면 React의 기본 개념인 **state, props, useEffect, useState**에 대한 이해가 필요하다.  
+이 강의는 노마드 코더 React Native 강의로, 효과적으로 수강하려면 React의 기본 개념인 **state, props, useEffect, useState**에 대한 이해가 필요하다.  
 
 
 ## React Native의 구조
@@ -56,5 +56,5 @@ React Native는 모바일 웹 사이트처럼 동작하지 않으며, 브라우�
 
 ## Creating The App
 이제 날씨 앱과 Todo 앱을 만들어 보겠다.  
-`expo init NomadWeather` 명령어로 프로젝트를 생성하고, 그 프로젝트를 열고 터미널에 `expo login`을 통해서 컴퓨터와 핸드폰에 동일한 아이디/비밀번호로 로그인하고, `npm start`를 입력한다.  
+`expo init [Project Name]` 명령어로 프로젝트를 생성하고, 그 프로젝트를 열고 터미널에 `expo login`을 통해서 컴퓨터와 핸드폰에 동일한 아이디/비밀번호로 로그인하고, `npm start`를 입력한다.  
 생성된 QR 코드를 스캔하면 React Native 코드가 실행되는 앱을 볼 수 있다.

@@ -2,7 +2,7 @@
 title: "[Day 1] 코딩테스트 4 문제"
 date: 2023-12-05 23:30:00 +0900
 categories: [Coding Test]
-tags: [tech, codingtest, javascript, programmers, leetcode]
+tags: [tech, codingtest, Javascript, programmers, leetcode]
 ---
 
 [LeetCode](https://leetcode.com/)라는 사이트가 코딩 테스트 준비하는데 좋은 사이트라고 들었다. 알고리즘 문제 해결과 코딩 인터뷰 준비를 위한 강력한 도구로 인정받고 있다고 한다. 아래는 참고 사이트를 통해 장점을 가져와 봤다.  

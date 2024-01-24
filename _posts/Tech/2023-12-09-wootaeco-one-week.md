@@ -2,7 +2,7 @@
 title: "[우아한테크코스 프리코스] 1주차 회고록"
 date: 2023-12-09 04:00:00 +0900
 categories: [WooTaeCo]
-tags: [tech, frontend, javascript, wootaeco]
+tags: [tech, Frontend, Javascript, Wootaeco]
 ---
 
 ## **늦었지만 해보는 우테코 1주차 회고록: 숫자 야구 게임**
