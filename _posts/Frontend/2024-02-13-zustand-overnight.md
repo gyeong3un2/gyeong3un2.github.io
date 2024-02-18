@@ -1,6 +1,6 @@
 ---
 title: "사용자 친화적인 자동 로그인 기능과 UI/UX 디자인 최적화"
-date: 2024-1-11 21:42:00 +0900
+date: 2024-2-13 21:42:00 +0900
 categories: [Frontend]
 tags: [Frontend, React Native, Login, Logout, UI/UX]
 ---
