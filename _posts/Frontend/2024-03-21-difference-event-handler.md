@@ -1,6 +1,6 @@
 ---
 title: "이벤트 핸들러를 호출하는 방식의 차이"
-date: 2024-03-21 16:24:00 +0900
+date: 2024-03-21 09:24:00 +0900
 categories: [Frontend]
 tags: [Frontend, TypeScript, Event Handler]
 ---
