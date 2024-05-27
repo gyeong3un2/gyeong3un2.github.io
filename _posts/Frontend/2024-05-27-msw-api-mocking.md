@@ -26,9 +26,9 @@ MSW는 Service Worker API를 사용하여 실제 네트워크 요청을 가로�
 
 > **Service Worker란?**
 >
-> 최신 브라우저에서 지원되고 있는 기술로 웹 응용 프로그램, 브라우저, 그리고 (사용 가능한 경우) <u>**네트워크 사이의 프록시 서버 역할**</u>을 합니다.  
+> 최신 브라우저에서 지원되고 있는 기술로 웹 응용 프로그램, 브라우저, 그리고 (사용 가능한 경우) <u>**네트워크 사이의 프록시 서버 역할**</u>을 합니다.
+>
 > 이를 이용하면 네트워크 요청이나 응답을 가로채서 조작하는 것이 가능합니다. 이러한 특성을 이용해서 실제 API 요청이 발생했을 시 미리 준비해둔 Mock 데이터로 대신 응답을 보내는 방식을 사용하고 있습니다.
-> {: .prompt-tip }
 
 <br><br>
 
@@ -50,10 +50,13 @@ $ yarn add msw --dev
 
 그렇게 되면 `/public/mockServiceWorker.js` 파일이 생성되며, `--save` 옵션을 사용하면 package.json에 등록되고 **msw를 업데이트할 때마다 자동으로 해당 항목을 업데이트**합니다.
 
+<br>
+
 > **mockServiceWorker.js 파일은 무슨 역할을 하나요?**
 >
 > 실제 서버로 보내지는 요청이 있다면, mockServiceWorker.js가 가로채서 mockServiceWorker에서 응답을 줍니다.
-> {: .prompt-tip }
+
+<br>
 
 ```bash
 $ npx msw init public/ --save
@@ -80,8 +83,10 @@ export default worker;
 
 #### **🗒️ src/mocks/http.ts**
 
-**Next.js는 서버와 클라이언트에서 동작하기 때문에 SSR 동작을 할 때에 서버에서도 MSW가 동작**해야 합니다.  
-서버와 클라이언트 두 곳에서 MSW가 동작해야 하는데 아직 서버에서 MSW를 동작시키는 방식이 나오지 않아(Next.js와 매끄럽게 호환되지 않음) Node 서버를 활용하여 임시로 MSW를 동작시킵니다.  
+**Next.js는 서버와 클라이언트에서 동작하기 때문에 SSR 동작을 할 때에 서버에서도 MSW가 동작**해야 합니다.
+
+서버와 클라이언트 두 곳에서 MSW가 동작해야 하는데 아직 서버에서 MSW를 동작시키는 방식이 나오지 않아(Next.js와 매끄럽게 호환되지 않음) Node 서버를 활용하여 임시로 MSW를 동작시킵니다.
+
 즉, <u>**http.ts 같은 경우는 서버 컴포넌트에서 서버로 요청을 보낼 때, next 서버(SSR)에서의 요청을 모킹하기 위해 사용되었습니다.**</u>
 
 ```bash
@@ -191,19 +196,19 @@ export const MSWComponent = () => {
 };
 ```
 
-> MSW가 v2로 업그레이드되면서 if (typeof window !== 'undefined')로 감싸주게 바뀌었습니다.  
+> **MSW가 v2로 업그레이드되면서 if (typeof window !== 'undefined')로 감싸주게 바뀌었습니다.**
+>
 > window가 undefined가 아니다.  
 > ⇒ window가 존재한다.  
 > ⇒ 클라이언트 환경, 즉 브라우저이다.  
 > ⇒ if문 안의 코드가 브라우저에서만 돌아가게끔 보장됩니다.
-> {: .prompt-info }
 
 <br>
 
 ### **.env.local 파일 생성**
 
 `.env` 파일에 환경 변수를 선언하게 되면 배포 환경에서도 해당 환경 변수가 적용됩니다.  
-하지만, MSW는 개발 환경일 때만 사용하면 되므ㅡ로 `.env.local` 파일에 환경 변수를 선언하게 되면 개발 환경일 때에만 해당 환경 변수가 유효합니다.
+하지만, MSW는 개발 환경일 때만 사용하면 되므로 `.env.local` 파일에 환경 변수를 선언하게 되면 개발 환경일 때에만 해당 환경 변수가 유효합니다.
 
 ```
 NEXT_PUBLIC_API_MOCKING = enabled
