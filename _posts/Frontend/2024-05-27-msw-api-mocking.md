@@ -66,8 +66,6 @@ $ npx msw init public/ --save
 
 ### **MSW 세팅하기**
 
-<br>
-
 #### **🗒️ src/mocks/browser.ts**
 
 MSW의 경우 service worker가 브라우저의 요청(CSR에서의 요청)을 뺏어서 browser.ts로 요청을 전달합니다.
